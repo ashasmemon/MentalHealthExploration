@@ -39,14 +39,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-
+Over the past 3 years with the economic recession due to the Covid-19 pandemic, there has been an increase in the number of people affected by some type of mental health disorder. As the pandemic progressed, there has been a significant increases in reported cases of individuals and households with anxiety or depressive disorder mostly attributed to the prolonged public health measures (https://www.kff.org/coronavirus-covid-19/issue-brief/the-implications-of-covid-19-for-mental-health-and-substance-use/ ).  The data was collected as an indicator in Lets’ Get Healthy California and includes a general breakdown of age, sex, ethnicity, education (among other strata) of individuals who reported they had a depressive disorder. The data was collected as part of an annual health related telephone survey conducted for California Behavioral Risk Factor Surveillance Survey (BRFSS), where individuals were asked, “Has a doctor, nurse or other health care professional EVER told you that you have a depressive disorder (including depression, major depression, dysthymia or minor depression)?”. The frequencies of all these individuals who responded to this was recorded in multiple tables. It is important to note that this particular dataset is not affiliated with the Centre for Disease Control and Prevention (CDC) or any other federal agencies, it is a stand-alone set and only contains data from 2012 up to 2018.
 
 # Data
 
 
 ## Data Summary
 
-The dataset explored in this exploration is about Adult Depression for California. The data was collected as an indicator in Lets’ Get Healthy California and includes a general breakdown of age, sex, ethnicity, education (among other strata) of individuals who reported they had a depressive disorder. The data was collected as part of an annual health related telephone survey conducted for California Behavioral Risk Factor Surveillance Survey (BRFSS), where individuals were asked, “Has a doctor, nurse or other health care professional EVER told you that you have a depressive disorder (including depression, major depression, dysthymia or minor depression)?”. The frequencies of all these individuals who responded to this was recorded in multiple tables. It is important to note that this particular dataset is not affiliated with the Centre for Disease Control and Prevention (CDC) or any other federal agencies, it is a stand-alone set. The dataset also contains data from 2012 up to 2018 and as such, I’m planning to examine any changes over time among any of the strata. I am not fully sure what else I will be examining but since there is data across multiple years, my first step is to examine any trends through this time frame. Although California isn’t close to Toronto, it is data about depression so I’m planning to explore this dataset.
 
 ## R Packages
 
