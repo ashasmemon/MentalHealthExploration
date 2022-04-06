@@ -1,9 +1,9 @@
 ---
-title: "Mehtal Health Exploration"
+title: "Adult Depression in California through 2012 to 2018"
 author: Ashas Memon
 thanks: "Code and data are available at: https://github.com/ashasmemon/MentalHealthExploration"
 date: "`r format(Sys.time(), '%d %B %Y')`"
-abstract: "Fill This!"
+abstract: "This report aims to examine Adult Depression in California as an indicator in Lets’ Get Healthy California including a general breakdown of age, sex, ethnicity and education. It discusses data collection methodology and examines the changes in depression rates among adults from various backgrounds ands education levels from 2012 to 2018. The data examines here was collected by asking, “Has a doctor, nurse or other health care professional ever told you that you have depressive disorder?”"
 output:
   bookdown::pdf_document2
 toc: FALSE
