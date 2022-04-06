@@ -1,0 +1,78 @@
+---
+title: "Mehtal Health Exploration"
+author: Ashas Memon
+thanks: "Code and data are available at: https://github.com/ashasmemon/MentalHealthExploration"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+abstract: "Fill This!"
+output:
+  bookdown::pdf_document2
+toc: FALSE
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE, show_col_types = FALSE}
+
+# install.packages("haven")
+# install.packages("tidyverse")
+# install.packages("dplyr")
+# install.packages("janitor")
+# install.packages("tidyr")
+# install.packages("ggplot2")
+# install.packages("lubridate")
+# install.packages("gridExtra")
+# install.packages("scales")
+# install.packages("knitr")
+library(haven)
+library(tidyverse)
+library(dplyr)
+library(janitor) # Helps clean datasets
+library(tidyr) # Helps make tidy datasets
+library(ggplot2)
+library(lubridate)
+library(gridExtra)
+library(scales)
+library(knitr)
+library(kableExtra)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+
+
+# Data
+
+
+## Data Summary
+
+The dataset explored in this exploration is about Adult Depression for California. The data was collected as an indicator in Lets’ Get Healthy California and includes a general breakdown of age, sex, ethnicity, education (among other strata) of individuals who reported they had a depressive disorder. The data was collected as part of an annual health related telephone survey conducted for California Behavioral Risk Factor Surveillance Survey (BRFSS), where individuals were asked, “Has a doctor, nurse or other health care professional EVER told you that you have a depressive disorder (including depression, major depression, dysthymia or minor depression)?”. The frequencies of all these individuals who responded to this was recorded in multiple tables. It is important to note that this particular dataset is not affiliated with the Centre for Disease Control and Prevention (CDC) or any other federal agencies, it is a stand-alone set. The dataset also contains data from 2012 up to 2018 and as such, I’m planning to examine any changes over time among any of the strata. I am not fully sure what else I will be examining but since there is data across multiple years, my first step is to examine any trends through this time frame. Although California isn’t close to Toronto, it is data about depression so I’m planning to explore this dataset.
+
+## R Packages
+
+# Methodology
+
+## Features
+
+## Sampling Population 
+
+## Sampling Method
+
+## Strengths
+
+## Weaknesses
+
+## Question Discussion 
+
+# Findings 
+ Talk about 3-4 aspects in this paper 
+ 
+# Discussion Based on Findings 
+
+# Privacy and Ethics 
+
+# Appendix
+
+
+# Reference
+
