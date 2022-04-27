@@ -35,6 +35,19 @@ library(knitr)
 library(kableExtra)
 
 knitr::opts_chunk$set(echo = TRUE)
+
+raw_data <- readr::read_csv("../../inputs/data/indicators.csv")
+sex_col <- select(filter(raw_data, Strata == "Sex"), c(1:4))
+names(sex_col)[3] <- "sex"
+
+education_col <- select(filter(raw_data, Strata == "Education"), c(1:4))
+
+
+age_col <- select(filter(raw_data, Strata == "Age"), c(1:4))
+names(age_col)[3] <- "age"
+
+race_col <- select(filter(raw_data, Strata == "Race-Ethnicity"), c(1:4))
+names(race_col)[3] <- "race"
 ```
 
 # Introduction
@@ -45,6 +58,7 @@ Over the past 3 years with the economic recession due to the Covid-19 pandemic, 
 
 
 ## Data Summary
+
 
 
 ## R Packages
@@ -60,14 +74,53 @@ This paper uses R[@citeR] for the main analysis of this paper and various other 
 
 ## Sampling Method
 
-## Strengths
+# Findings
 
-## Weaknesses
 
-## Question Discussion 
 
-# Findings 
+```{r sexLinePlot, fig.cap="Distribution from Males vs Females", echo=FALSE, warning=FALSE,show_col_types = FALSE}
 
+sex_line_plot <- ggplot(sex_col, aes(x = Year, y = Frequency, fill = sex)) +
+  geom_line() +
+  geom_point(size = 4, shape = 21) +
+  labs(x="Year", y="Number of Cases", title="Distribution of Depression for Male vs Females")
+
+sex_line_plot
+```
+
+From the figure \@ref(fig:sexLinePlot), the number of cases amoung males increases slightly overall where as the number of cases in women decreases sligtly over the course from 2012 to 2018. The line repreentaing both males and females has a dip in 2014 with less cases reported during that year and a sudden increase in the following year. For make, the number of cases decrease from around 600 to just above 400 from 2012 to 2014 and the number of cases in women starts at just under 1400 followed by a significant decrease to around 800 in 2014.
+
+
+```{r raceBarPlot, fig.cap="Distribution pf Depression by Race", echo=FALSE, warning=FALSE,show_col_types = FALSE}
+
+race_bar_plot <- ggplot(race_col, aes(x = Year, y = Frequency, fill = race)) +
+  geom_col(position = position_dodge()) +
+  labs(x="Year", y="Number of Cases", title="Distribution of Depression by Race")
+
+race_bar_plot
+```
+
+
+As seen in figure \@ref(fig:raceBarPlot), there is a significantly higher number of depression amoung white individuals that any other race.
+
+```{r ageLinePlot, fig.cap="Distribution of Depression by Age", echo=FALSE, warning=FALSE,show_col_types = FALSE}
+
+age_bar_plot <- ggplot(age_col, aes(x = Year, y = Frequency, fill = age)) +
+  geom_col(position = position_dodge()) +
+  labs(x="Year", y="Number of Cases", title="Distribution of Depression by Age")
+
+age_line_plot <- ggplot(age_col, aes(x = Year, y = Frequency, color = age)) +
+  geom_line() +
+  geom_point(size = 2, shape = 21) +
+  labs(x="Year", y="Number of Cases", title="Distribution of Depression by Age")
+
+age_line_plot
+
+# age_bar_plot
+```
+
+ 
+ As seen in figure \@ref(fig:ageLinePlot), there is a a differnt trend for each age group.
  
 # Discussion Based on Findings 
 
