@@ -88,8 +88,11 @@ sex_line_plot <- ggplot(sex_col, aes(x = Year, y = Frequency, fill = sex)) +
 sex_line_plot
 ```
 
-From the figure \@ref(fig:sexLinePlot), the number of cases amoung males increases slightly overall where as the number of cases in women decreases sligtly over the course from 2012 to 2018. The line repreentaing both males and females has a dip in 2014 with less cases reported during that year and a sudden increase in the following year. For make, the number of cases decrease from around 600 to just above 400 from 2012 to 2014 and the number of cases in women starts at just under 1400 followed by a significant decrease to around 800 in 2014.
+From the figure \@ref(fig:sexLinePlot), the number of cases amoung males increases slightly overall where as the number of cases in women decreases sligtly over the course from 2012 to 2018. The line representing both males and females has a dip in 2014 with less cases reported during that year and a sudden increase in the following year and then another drop in the number of cases in 2016. For males, the number of cases decrease from around 600 to just above 400 from 2012 to 2014 and the number of cases in women starts at just under 1400 followed by a significant decrease to around 800 in 2014. 
 
+It is also clear from figure \@ref(fig:sexLinePlot) that there are significantly higher depression cases among females then there are amoung males. There is at least a 300 case difference in the number of cases in females as compared to males.
+
+\newpage
 
 ```{r raceBarPlot, fig.cap="Distribution pf Depression by Race", echo=FALSE, warning=FALSE,show_col_types = FALSE}
 
@@ -101,7 +104,11 @@ race_bar_plot
 ```
 
 
-As seen in figure \@ref(fig:raceBarPlot), there is a significantly higher number of depression amoung white individuals that any other race.
+After plotting the number of cases of depressive disorder by race and ethnic background in figure \@ref(fig:raceBarPlot), there is a significantly higher number of depression cases amoung White individuals than any other race. For each of the years between 2012 to 2018, number of cases amoung White individuals seems to decrease slightly on average, although it is still higher than all other racial backgrounds for each of the given years. Additionally, Hispanics have the second largest number of cases in each year but significantly less than White and significantly higher than the other racial backgrounds.
+
+Upon further examination, Asian/Pacific Islanders have the lowest number of depression cases with under 100 cases for each of the years. The second highest number of cases is amound the Black community with number of cases just slightly higher than Asian/Pacific Islanders. There is a drop in the number of cases in 2014 for all races, followed by an increase in 2015, which is again followed by a decrease in 2016.
+
+\newpage
 
 ```{r ageLinePlot, fig.cap="Distribution of Depression by Age", echo=FALSE, warning=FALSE,show_col_types = FALSE}
 
@@ -120,11 +127,25 @@ age_line_plot
 ```
 
  
- As seen in figure \@ref(fig:ageLinePlot), there is a a differnt trend for each age group.
+As seen in figure \@ref(fig:ageLinePlot), there is a different trend for each age group. There is an overall increase in the number of cases from 2012 to 2018 for age group 18 to 34. There is also a slight overall increase in the number of cases from 2012 to 2018 amoung the age group 35 to 44 but not a significantly increasing trend as seen in age group 18 to 34. It is also important to note that most of the age intervals cover 10 year intervals except for age group 18 to 34 and above 65. Additionally, the data might be slightly different because figure \@ref(fig:ageLinePlot) represents frequencies instead of normalized results for each of the age groups. This could account for significantly higher number amoung 18 to 34 age group because there are more individuals in that age range. Furthermore, the overall number of cases in the age groups 45 to 54, 55 to 64 and 65+ appears to decrease slighly over the years 2012 to 2018. These three groups appear to show the same trend but the only different being that the age group of 45 to 54 having around 100 cases less for each year and ther other two groups having around the same number of cases for each year.
+
+There is a drop in the number of reported cases in 2014 and the following year (2015) has a sudden increase amoung all the age groups, followed again by a drop in the number of cases in 2016. This trend of dropping number of cases in 2014, increase in 2015 and dropping again in 2016 is seen in all of the data collected in figure \@ref(fig:sexLinePlot) and \@ref(fig:raceBarPlot) as well.
  
 # Discussion Based on Findings 
 
+## Sex
+
+Upon further examining of literature about the gender gap is depression, women are twice as likely to depression as compared to men [@GenderGap]
+
+## Race
+
+Hispanic and black communities still view depression as a taboo topic and are less likely to report those cases if the are asked. Culturally, they don't believe that depression is a disorder so they dont admit it. could also be that there are significantly less hispanic and black individusuals living in California so that why there are less cases.
+
+## Age
+
 # Privacy and Ethics 
+
+Data collected anonymously, data collection about racial backfround and other factors including age,sex but not any personal information to link the data back to any of the surveyed individuals.
 
 # Appendix
 
