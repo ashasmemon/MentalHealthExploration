@@ -49,6 +49,9 @@ Over the past 3 years with the economic recession due to the Covid-19 pandemic, 
 
 ## R Packages
 
+This paper uses R[@citeR] for the main analysis of this paper and various other packages including **tidyverse** [@tidyverse], **dplyr** [@dplyr], **janitor** [@janitor], and **tidyr** [@tidyr] for cleaning, processing and manipulating the data. Additionally, **ggplot2** [@ggplot], and **gridExtra** [@gridExtra] packages are used to to create appropriate plots and visual representations of the data presented throughout this report.
+
+
 # Methodology
 
 ## Features
@@ -64,12 +67,14 @@ Over the past 3 years with the economic recession due to the Covid-19 pandemic, 
 ## Question Discussion 
 
 # Findings 
- Talk about 3-4 aspects in this paper 
+
  
 # Discussion Based on Findings 
 
 # Privacy and Ethics 
 
 # Appendix
+
+\newpage
 
 # Reference
