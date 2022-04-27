@@ -135,17 +135,19 @@ There is a drop in the number of reported cases in 2014 and the following year (
 
 ## Sex
 
-Upon further examining of literature about the gender gap is depression, women are twice as likely to depression as compared to men [@GenderGap]
+Upon further examining of literature about the gender gap is depression, women are twice as likely to depression as compared to men [@GenderGapOne]. Higher depression cases in females are caused by a number of other factors as well, including hormonal changes, inherited traits and lifestyle. Sometimes hormonal changes may cause short periods of temporary depression but most likely nothing long term. Puberty is one cause where there are a lot of changes going on in ones life including sexual and identity issues, and pressure from family to achieve in school and other aspects of life [@GenderGapOne]. 
+
+Studies have also suggested that women may experience more stressfull life events and they are more sensitive to them as compared to men. Furthermore, its is also seen that depression rates are fairly consistent throughout the world (when comparing men to women) which could suggest that underlying biological factors play a major role in determining in addition to other factors such as social status, life experience, race, etc [@GenderGapTwo].
 
 ## Race
 
-Hispanic and black communities still view depression as a taboo topic and are less likely to report those cases if the are asked. Culturally, they don't believe that depression is a disorder so they dont admit it. could also be that there are significantly less hispanic and black individusuals living in California so that why there are less cases.
+Hispanic and black communities still view depression as a taboo topic and are less likely to report those cases if the are asked. Culturally, they don't believe that depression is a disorder so they don't admit it. could also be that there are significantly less Hispanic and black individuals living in California so that why there are less cases.
 
 ## Age
 
 # Privacy and Ethics 
 
-Data collected anonymously, data collection about racial backfround and other factors including age,sex but not any personal information to link the data back to any of the surveyed individuals.
+Data collected anonymously, data collection about racial background and other factors including age,sex but not any personal information to link the data back to any of the surveyed individuals.
 
 # Appendix
 
